@@ -1,0 +1,10 @@
+name = "ultimate-telegram-bot"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+kv_namespaces = [
+  { binding = "DB", id = "YOUR_KV_ID" }
+]
+
+[vars]
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
